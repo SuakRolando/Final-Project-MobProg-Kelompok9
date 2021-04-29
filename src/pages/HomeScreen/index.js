@@ -7,7 +7,7 @@ const HomeScreen = () => {
     return (
         <View style={styles.page}>
             <Logo style={styles.logo}/>
-            <Text style={styles.text}>BarBar Coffe</Text>
+            <Text style={styles.text}>BarBar Coffee</Text>
             <Button title="Table Number"/>
         </View>
     )
