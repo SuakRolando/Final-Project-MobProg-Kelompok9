@@ -1,11 +1,11 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
+import {SplashScreen, HomeScreen} from './pages';
 
 const App = () => {
   return (
-    <View>
-      <Text>Main Project</Text>
-    </View>
+      //<SplashScreen/>
+      <HomeScreen/>
   )
 }
 
