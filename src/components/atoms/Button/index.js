@@ -15,17 +15,17 @@ export default Button
 
 const styles = StyleSheet.create({
     box:{
-        height: 53,
-        width: 242,
-        backgroundColor: 'brown',
+        height: 43,
+        width: 193,
+        backgroundColor: '#B98068',
         alignItems:'center',
         justifyContent:'center',
         borderRadius: 2,
-        marginTop: 83,
         borderRadius: 5,
+        marginTop: 20,
     },
     tul:{
-        fontSize: 20,
-        color: 'white'
+        fontSize: 18,
+        color: 'black'
     }
 })

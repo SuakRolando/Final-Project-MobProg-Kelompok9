@@ -1,12 +1,16 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native';
-import {Logo,Background, Background1} from '../../assets';
+import {Logo,Background, Background1, bg1} from '../../assets';
 
 const SplashScreen = () => {
     return (
         <View style={styles.page}>
             <Logo/>
-            <Text style={styles.text}>BarBar Coffee</Text>
+            <View style={styles.viewText}>
+                <Text style={styles.text1}>BarBar </Text>
+                <Text style={styles.text2}>Coffee</Text>
+            </View>
+            
         </View>
     )
 };
@@ -20,8 +24,17 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         flex: 1,
     },
-    text:{
+    text1:{
         fontFamily: 'Sen-Regular',
         fontSize: 36,
+        color: '#C08D78'
+    },
+    text2:{
+        fontFamily: 'Sen-Regular',
+        fontSize: 36,
+        color: 'black'
+    },
+    viewText:{
+        flexDirection:'row',
     }
 });
